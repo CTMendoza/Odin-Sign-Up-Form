@@ -3,6 +3,14 @@ body {
     margin: 0;
 }
 
+p {
+    font-family: "Dosis", Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+    margin-top: 60px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
 #container {
     height: 100%;
     display: flex;
@@ -18,4 +26,17 @@ body {
 }
 
 #form-block {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 60%;
+}
+
+#text-block, #input-block, #button-block {
+    flex-basis: calc(100%/3);
+    width: 100%;
+}
+
+#text-block {
+    background-color: #E5E4E2;
 }
