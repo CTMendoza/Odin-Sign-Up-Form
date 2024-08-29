@@ -1,14 +1,41 @@
 body {
     min-height: 100vh;
     margin: 0;
+    font-family: "Dosis", Arial, Helvetica, sans-serif;
 }
 
-p {
-    font-family: "Dosis", Arial, Helvetica, sans-serif;
+p { 
     margin-left: 40px;
     margin-top: 60px;
     font-size: 25px;
     font-weight: 600;
+}
+
+h2 {
+    margin-left: 40px;
+}
+
+form {
+    display: flex;
+    height: 76%;
+    margin-left: 40px;
+}
+
+input {
+    width: 300px;
+    height: 22px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #87819359;
+}
+
+.col-1, .col-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.col-1 {
+    margin-right: 96px;
 }
 
 #container {
@@ -32,6 +59,10 @@ p {
     width: 60%;
 }
 
+#input-block {
+    box-shadow: 7px 12px 10px 2px #565452e8 ;
+}
+
 #text-block, #input-block, #button-block {
     flex-basis: calc(100%/3);
     width: 100%;
@@ -40,3 +71,9 @@ p {
 #text-block {
     background-color: #E5E4E2;
 }
+
+#first_name, #email, #last_name, #phone_number {
+    margin-bottom:  13px;
+}
+
+
