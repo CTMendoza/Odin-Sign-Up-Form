@@ -29,6 +29,11 @@ input {
     border-color: #87819359;
 }
 
+input:invalid {
+    border-color: red;
+}
+
+
 button {
     width: 273px;
     margin-left: 40px;
