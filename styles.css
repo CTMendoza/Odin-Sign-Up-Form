@@ -33,6 +33,10 @@ input {
     border-color: #87819359;
 }
 
+ img {
+    height: 125px;
+ }
+
 input:invalid {
     border-color: red;
 }
